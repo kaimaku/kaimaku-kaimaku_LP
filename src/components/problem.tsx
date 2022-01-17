@@ -11,10 +11,10 @@ import HugeVector3 from '../../public/images/hugeVector3.png';
 const Problem: NextPage = () => {
   return (
     <>
-      <div>
-        <div className="flex flex-col px-36 py-36">
+      <div className="mb-40">
+        <div className="flex flex-col px-36 pt-36 mb-40">
           <div className="mx-auto w-fit">
-            <Image src={ProblemTitle} alt="PROBLEM" className="" />
+            <Image src={ProblemTitle} alt="PROBLEM" />
           </div>
           <p className="text-center text-[30px] font-semibold tracking-widest pt-4">
             こんな悩みありませんか？
