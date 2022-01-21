@@ -11,7 +11,7 @@ import HugeVector3 from '../../public/images/problem/hugeVector3.png';
 const Problem: NextPage = () => {
   return (
     <>
-      <div className="mb-40">
+      <div className="mb-56">
         <div className="flex flex-col px-36 pt-36 mb-40">
           <div className="mx-auto w-fit">
             <Image src={ProblemTitle} alt="PROBLEM" />
