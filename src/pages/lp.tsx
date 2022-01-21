@@ -5,6 +5,7 @@ import Problem from '../components/problem';
 import Proposal from '../components/proposal';
 import Proposal2 from '../components/proposal2';
 import Voice from '../components/voice/voice';
+import Footer from '../components/footer';
 
 const lp: NextPage = () => {
   return (
@@ -15,6 +16,7 @@ const lp: NextPage = () => {
       <Proposal2 />
       <Features />
       <Voice />
+      <Footer />
     </>
   );
 };
