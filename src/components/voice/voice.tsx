@@ -1,5 +1,4 @@
 import { NextPage } from 'next';
-import Image from 'next/image';
 
 import VoiceCard from './voiceCard';
 import Title from '../../../public/images/voice/voiceTitle.png';
@@ -9,7 +8,7 @@ const Voice: NextPage = () => {
     <>
       <div className="flex flex-col mb-24">
         <div className="w-fit mx-auto px-auto">
-          <Image src={Title} alt="TITLE" />
+          <img src={Title.src} alt="TITLE" />
         </div>
         <p className="text-center text-[30px] font-semibold tracking-widest pt-4 mb-[88px]">
           長期インターン経験談
