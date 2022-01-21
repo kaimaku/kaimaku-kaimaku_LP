@@ -1,12 +1,12 @@
 import { NextPage } from 'next';
 import Image from 'next/image';
-import ProblemTitle from '../../public/images/problemTitle.png';
-import ProblemPeople from '../../public/images/problemHuman.png';
-import CloserVector from '../../public/images/closerVector.png';
-import FarVector from '../../public/images/farVector.png';
-import HugeVector1 from '../../public/images/hugeVector1.png';
-import HugeVector2 from '../../public/images/hugeVector2.png';
-import HugeVector3 from '../../public/images/hugeVector3.png';
+import ProblemTitle from '../../public/images/problem/problemTitle.png';
+import ProblemPeople from '../../public/images/problem/problemHuman.png';
+import CloserVector from '../../public/images/problem/closerVector.png';
+import FarVector from '../../public/images/problem/farVector.png';
+import HugeVector1 from '../../public/images/problem/hugeVector1.png';
+import HugeVector2 from '../../public/images/problem/hugeVector2.png';
+import HugeVector3 from '../../public/images/problem/hugeVector3.png';
 
 const Problem: NextPage = () => {
   return (

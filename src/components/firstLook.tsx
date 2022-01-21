@@ -15,7 +15,10 @@ const FirstLook: NextPage = () => {
         <Image src={BackgroundBaseImage} width={1600} height={600} className="z-0 w-full" />
         <div className="flex flex-row px-36 absolute top-32">
           <div className="flex flex-col mx-12 max-w-3xl">
-            <a href="#" className="-mt-12">
+            <a
+              href="https://apps.apple.com/jp/app/kaimaku-%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%AE%E9%95%B7%E6%9C%9F%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%B3/id1592892805"
+              className="-mt-12"
+            >
               <div className="flex flex-row gap-2">
                 <Image src={LogoImage} alt="Logo Image" />
                 <Image src={LogoText} alt="Logo Text" />

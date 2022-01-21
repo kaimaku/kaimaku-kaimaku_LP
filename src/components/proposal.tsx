@@ -1,16 +1,16 @@
 import { NextPage } from 'next';
 import Image from 'next/image';
-import TakeTheLead from '../../public/images/takeTheLead.png';
-import Knowledge from '../../public/images/knowledge.png';
-import JobHunting from '../../public/images/jobHunting.png';
-import VectorRight from '../../public/images/proposalVectorRight.png';
-import VectorLeft from '../../public/images/proposalVectorLeft.png';
-import ProposalTitle from '../../public/images/proposalTitle.png';
+import TakeTheLead from '../../public/images/proposal/takeTheLead.png';
+import Knowledge from '../../public/images/proposal/knowledge.png';
+import JobHunting from '../../public/images/proposal/jobHunting.png';
+import VectorRight from '../../public/images/proposal/proposalVectorRight.png';
+import VectorLeft from '../../public/images/proposal/proposalVectorLeft.png';
+import ProposalTitle from '../../public/images/proposal/proposalTitle.png';
 
 const Proposal: NextPage = () => {
   return (
     <>
-      <div className="flex flex-col">
+      <div className="flex flex-col mb-24">
         <div className="relative z-0">
           <div className="absolute right-0 top-40">
             <Image src={VectorRight} />
