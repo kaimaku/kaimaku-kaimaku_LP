@@ -1,6 +1,3 @@
-import { NextPage } from 'next';
-import Image from 'next/image';
-
 import Chatting1 from '../../../public/images/features/rightImage/chatting1.png';
 import Chatting2 from '../../../public/images/features/rightImage/chatting2.png';
 import Circle from '../../../public/images/features/rightImage/circle.png';
@@ -10,12 +7,12 @@ const RightIcon = () => {
     <>
       <div className="flex flex-col ml-[105px]">
         <div className="w-fit relative z-10">
-          <Image src={Circle} alt="CIRCLE" />
+          <img src={Circle.src} alt="CIRCLE" />
           <div className="absolute z-20 w-fit top-[52px] -right-[42px]">
-            <Image src={Chatting1} alt="CHATTING1" />
+            <img src={Chatting1.src} alt="CHATTING1" />
           </div>
           <div className="absolute z-20 w-fit top-[140px] left-[10px]">
-            <Image src={Chatting2} alt="CHATTING2" />
+            <img src={Chatting2.src} alt="CHATTING2" />
           </div>
         </div>
         <div>

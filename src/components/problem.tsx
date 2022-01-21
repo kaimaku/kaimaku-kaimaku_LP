@@ -1,5 +1,5 @@
 import { NextPage } from 'next';
-import Image from 'next/image';
+
 import ProblemTitle from '../../public/images/problem/problemTitle.png';
 import ProblemPeople from '../../public/images/problem/problemHuman.png';
 import CloserVector from '../../public/images/problem/closerVector.png';
@@ -14,7 +14,7 @@ const Problem: NextPage = () => {
       <div className="mb-56">
         <div className="flex flex-col px-36 pt-36 mb-40">
           <div className="mx-auto w-fit">
-            <Image src={ProblemTitle} alt="PROBLEM" />
+            <img src={ProblemTitle.src} alt="PROBLEM" />
           </div>
           <p className="text-center text-[30px] font-semibold tracking-widest pt-4">
             こんな悩みありませんか？
@@ -24,28 +24,28 @@ const Problem: NextPage = () => {
         <div className="flex flex-row">
           <div className="pt-32">
             <div className="w-96 relative left-52">
-              <Image src={ProblemPeople} alt="PROBLEM PEOPLE" />
+              <img src={ProblemPeople.src} alt="PROBLEM PEOPLE" />
               <div className="absolute w-96 left-[300px] -top-8">
-                <Image src={CloserVector} alt="CLOSER VECTOR" />
+                <img src={CloserVector.src} alt="CLOSER VECTOR" />
               </div>
               <div className="absolute w-96 left-[350px] -top-16">
-                <Image src={FarVector} alt="FAR VECTOR" />
+                <img src={FarVector.src} alt="FAR VECTOR" />
               </div>
               <div>
                 <div className="absolute w-96 left-[385px] -top-52">
-                  <Image src={HugeVector1} alt="HUGE VECTOR 1" className="relative z-0" />
+                  <img src={HugeVector1.src} alt="HUGE VECTOR 1" className="relative z-0" />
                   <p className="font-bold absolute z-10 left-[26px] top-24">
                     なんとなく<span className="text-blue-400">将来が不安</span>だな...
                   </p>
                 </div>
                 <div className="absolute w-96 left-[700px] -top-52">
-                  <Image src={HugeVector2} alt="HUGE VECTOR 2" className="relative z-0" />
+                  <img src={HugeVector2.src} alt="HUGE VECTOR 2" className="relative z-0" />
                   <p className="font-bold absolute z-10 left-[28px] top-[105px]">
                     <span className="text-blue-400">ありきたりなガクチカ</span>になるかも...
                   </p>
                 </div>
                 <div className="absolute w-96 left-[500px] top-0">
-                  <Image src={HugeVector3} alt="HUGE VECTOR 3" className="relative z-0" />
+                  <img src={HugeVector3.src} alt="HUGE VECTOR 3" className="relative z-0" />
                   <p className="font-bold absolute z-10 left-[28px] top-[92px]">
                     友達よりも<span className="text-blue-400">実力をつけたい</span>な...
                   </p>

@@ -1,5 +1,4 @@
 import { NextPage } from 'next';
-import Image from 'next/image';
 import Business from '../../../public/images/features/leftImage/business.png';
 import Circle from '../../../public/images/features/leftImage/circle.png';
 import Engineer from '../../../public/images/features/leftImage/engineer.png';
@@ -10,15 +9,15 @@ const LeftIcon: NextPage = () => {
     <>
       <div className="flex flex-col mr-[105px]">
         <div className="w-fit relative z-10">
-          <Image src={Circle} alt="CIRCLE" />
+          <img src={Circle.src} alt="CIRCLE" />
           <div className="absolute w-fit top-[45px] left-[98px] z-20">
-            <Image src={Avatar} alt="AVATAR" />
+            <img src={Avatar.src} alt="AVATAR" />
           </div>
           <div className="absolute w-fit top-[140px] left-[65px] z-20">
-            <Image src={Business} alt="BUSINESS" />
+            <img src={Business.src} alt="BUSINESS" />
           </div>
           <div className="absolute w-fit top-[188px] left-[72px] z-20">
-            <Image src={Engineer} alt="ENGINEER" />
+            <img src={Engineer.src} alt="ENGINEER" />
           </div>
         </div>
         <div>

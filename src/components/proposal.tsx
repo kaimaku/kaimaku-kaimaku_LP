@@ -1,5 +1,5 @@
 import { NextPage } from 'next';
-import Image from 'next/image';
+
 import TakeTheLead from '../../public/images/proposal/takeTheLead.png';
 import Knowledge from '../../public/images/proposal/knowledge.png';
 import JobHunting from '../../public/images/proposal/jobHunting.png';
@@ -13,15 +13,15 @@ const Proposal: NextPage = () => {
       <div className="flex flex-col mb-24">
         <div className="relative z-0">
           <div className="absolute right-0 top-40">
-            <Image src={VectorRight} />
+            <img src={VectorRight.src} />
           </div>
           <div className="absolute left-0 -top-12">
-            <Image src={VectorLeft} />
+            <img src={VectorLeft.src} />
           </div>
         </div>
         <div className="px-36 mb-[110px]">
           <div className="mx-auto w-fit">
-            <Image src={ProposalTitle} alt="PROPOSAL" />
+            <img src={ProposalTitle.src} alt="PROPOSAL" />
           </div>
           <p className="text-center text-[30px] font-semibold tracking-widest pt-4">
             長期インターンしてみては？
@@ -30,7 +30,7 @@ const Proposal: NextPage = () => {
         <div className="mx-auto grid grid-cols-3 gap-[30px] z-10">
           <div className="w-[360px] h-80 rounded-3xl shadow-2xl bg-white">
             <div className="w-fit mx-auto mt-[71px] mb-[30px]">
-              <Image src={TakeTheLead} />
+              <img src={TakeTheLead.src} />
             </div>
             <div>
               <p className="text-center font-bold text-[20px] mb-5">大学生の3%</p>
@@ -42,7 +42,7 @@ const Proposal: NextPage = () => {
           </div>
           <div className="w-[360px] h-80 rounded-3xl shadow-2xl bg-white">
             <div className="w-fit mx-auto mt-[71px] mb-[30px]">
-              <Image src={Knowledge} />
+              <img src={Knowledge.src} />
             </div>
             <div>
               <p className="text-center font-bold text-[20px] mb-5">学べて、稼げて、一石二鳥</p>
@@ -53,7 +53,7 @@ const Proposal: NextPage = () => {
           </div>
           <div className="w-[360px] h-80 rounded-3xl shadow-2xl bg-white">
             <div className="w-fit mx-auto mt-[71px] mb-[30px]">
-              <Image src={JobHunting} />
+              <img src={JobHunting.src} />
             </div>
             <div>
               <p className="text-center font-bold text-[20px] mb-5">就活で有利に働く</p>
