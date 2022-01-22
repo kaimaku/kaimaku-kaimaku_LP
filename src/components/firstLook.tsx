@@ -11,7 +11,7 @@ import LogoText from '../../public/images/logoText.png';
 const FirstLook: NextPage = () => {
   return (
     <>
-      <div className="mb-40">
+      <div className="mb-40 w-full">
         <img src={BackgroundBaseImage.src} width={1600} height={600} className="z-0 w-full" />
         <div className="flex flex-row px-36 absolute top-32">
           <div className="flex flex-col mx-12 max-w-3xl">
@@ -41,16 +41,27 @@ const FirstLook: NextPage = () => {
             </div>
           </div>
           <div className="relative w-full -ml-20">
-            <div className="absolute -right-12 top-16">
-              <img src={Layer1.src} width={380} height={454} className="z-30 absolute" />
-            </div>
-            <div className="absolute top-4 left-16">
-              <img src={Layer2.src} width={440} height={596} className="z-20 absolute" />
-            </div>
-            <div className="absolute top-12">
-              <img src={Layer3.src} width={480} height={560} className="z-10 absolute" />
-            </div>
-
+            <img
+              src={Layer1.src}
+              alt="layer1"
+              width={380}
+              height={454}
+              className="z-30 absolute -right-12 top-16"
+            />
+            <img
+              src={Layer2.src}
+              alt="layer1"
+              width={440}
+              height={596}
+              className="z-20 absolute top-4 left-16"
+            />
+            <img
+              src={Layer3.src}
+              alt="layer1"
+              width={480}
+              height={560}
+              className="z-10 absolute top-12"
+            />
             <div className="relative border border-white rounded-full w-[462px] h-[462px] left-36 -top-12 opacity-20">
               <div className="absolute border border-white rounded-full w-[320px] h-[320px] top-[70px] left-[70px]"></div>
               <div className="absolute border border-white rounded-full w-[211px] h-[211px] top-[125px] left-[125px]"></div>
