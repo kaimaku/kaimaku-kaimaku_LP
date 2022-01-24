@@ -6,7 +6,7 @@ import Title from '../../../public/images/voice/voiceTitle.png';
 const Voice: NextPage = () => {
   return (
     <>
-      <div className="flex flex-col mb-24">
+      <div className="flex flex-col mb-24 w-[1720px] md:w-screen">
         <div className="w-fit mx-auto px-auto">
           <img src={Title.src} alt="TITLE" />
         </div>

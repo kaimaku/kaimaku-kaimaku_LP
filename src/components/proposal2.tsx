@@ -10,7 +10,7 @@ import LogoText from '../../public/images/proposal/logoText2.png';
 const Proposal2: NextPage = () => {
   return (
     <>
-      <div className="flex flex-row mb-[470px]">
+      <div className="flex flex-row mb-[470px] w-[1720px] md:w-screen">
         <div className="relative w-[660px]">
           <div className="absolute left-0 z-0">
             <img src={LeftCircle.src} />
@@ -25,7 +25,7 @@ const Proposal2: NextPage = () => {
             <img src={Iphone2.src} />
           </div>
         </div>
-        <div className="mt-48">
+        <div className="mt-48 relative">
           <div className="mb-8">
             <img src={LogoText.src} />
           </div>
@@ -44,7 +44,7 @@ const Proposal2: NextPage = () => {
           </p>
           <a
             href="https://apps.apple.com/jp/app/kaimaku-%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%AE%E9%95%B7%E6%9C%9F%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%B3/id1592892805"
-            className="absolute right-32 mt-12"
+            className="absolute right-0 mt-12"
           >
             <img src={ToAppleStore.src} />
           </a>

@@ -10,7 +10,7 @@ import ProposalTitle from '../../public/images/proposal/proposalTitle.png';
 const Proposal: NextPage = () => {
   return (
     <>
-      <div className="flex flex-col mb-24">
+      <div className="flex flex-col mb-24 w-[1720px] md:w-screen">
         <div className="relative z-0">
           <div className="absolute right-0 top-40">
             <img src={VectorRight.src} />
