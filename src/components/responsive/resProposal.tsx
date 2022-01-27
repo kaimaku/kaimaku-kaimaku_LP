@@ -5,7 +5,7 @@ import Knowledge from '../../../public/images/responsive/proposal/knowledge.png'
 import JobHunting from '../../../public/images/responsive/proposal/jobHunting.png';
 import LeftVector from '../../../public/images/responsive/proposal/leftVector.png';
 import RightVector from '../../../public/images/responsive/proposal/rightVector.png';
-import Border from '../../../public/images/responsive/proposal/border.png';
+// import Division from '../../../public/images/responsive/proposal/division.png';
 import Logo from '../../../public/images/responsive/proposal/kaimakuLogo.png';
 import LeftCircle from '../../../public/images/responsive/proposal/leftCircle.png';
 import RightCircle from '../../../public/images/responsive/proposal/rightCircle.png';
@@ -56,7 +56,7 @@ const ResProposal: NextPage = () => {
       <div className="relative z-0 top-[1150px]">
         <p className="text-[20px] font-bold text-center">けど、ハードル高そう...</p>
         <p className="text-[12px] text-center mt-8 mb-[75px]">そういう時は</p>
-        <img src={Border.src} alt="BORDER" className="mx-auto" />
+        {/* <img src={Division.src} alt="BORDER" className="mx-auto" /> */}
         <img src={Logo.src} alt="LOGO" className="mt-[90px] mx-auto" />
         <hr className="text-color-[#F6F6F6] w-[130px] mx-auto mt-[36px]" />
         <p className="mt-[30px] text-[12px] w-[263px] mx-auto">
