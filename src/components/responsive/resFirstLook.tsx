@@ -7,11 +7,18 @@ import { NextPage } from 'next';
 import Logo from '../../../public/images/responsive/logo.png';
 import Text from '../../../public/images/responsive/kaimakuText.png';
 import ResBackgroundBaseImage from '../../../public/images/responsive/resBackgroundBaseImage.png';
+import ToAppstore from '../../../public/images/responsive/toAppstore.png';
 
 const ResFirstLook: NextPage = () => {
   return (
     <>
       <div>
+        <a
+          href="https://apps.apple.com/jp/app/kaimaku-%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%AE%E9%95%B7%E6%9C%9F%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%B3/id1592892805"
+          className="fixed left-0 right-0 mx-20 top-[600px] z-40 bg-gradient-to-r from-[#6E6DD2] to-[#44A3C8] text-white py-3 px-auto text-center rounded-full"
+        >
+          アプリをインストール
+        </a>
         <img
           src={ResBackgroundBaseImage.src}
           alt="レスポンシブ"
