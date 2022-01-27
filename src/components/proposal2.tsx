@@ -10,7 +10,7 @@ import LogoText from '../../public/images/proposal/logoText2.png';
 const Proposal2: NextPage = () => {
   return (
     <>
-      <div className="flex flex-row mb-[470px] w-[1720px] md:w-screen">
+      <div className="flex flex-row mb-[470px] w-full">
         <div className="relative w-[660px]">
           <div className="absolute left-0 z-0">
             <img src={LeftCircle.src} />

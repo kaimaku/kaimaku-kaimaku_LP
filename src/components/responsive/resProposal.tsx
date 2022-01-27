@@ -66,14 +66,12 @@ const ResProposal: NextPage = () => {
           を行うことで、その意思を簡単に伝える事ができます。また、「自分から応募する」というハードルを超えることなく
           <span className="text-blue-400">企業からオファー</span>を受け取ることができます。
         </p>
-        <div className="absolute w-full">
+        <div className="relative w-full">
           <img src={LeftCircle.src} alt="Circle" className="absolute left-0 top-[55px] z-0" />
           <img src={RightCircle.src} alt="Circle" className="absolute right-0 top-[375px] z-0" />
-          <img
-            src={IPhoneImage.src}
-            alt="IPhone"
-            className="absolute z-10 top-[80px] left-[74px]"
-          />
+          <div className="overflow-hidden absolute z-10 right-0 left-[55px] mx-auto top-[80px]">
+            <img src={IPhoneImage.src} alt="IPhone" className="" />
+          </div>
           <img
             src={MatchingCard.src}
             alt="MatchingCardImage"

@@ -10,7 +10,7 @@ import ProposalTitle from '../../public/images/proposal/proposalTitle.png';
 const Proposal: NextPage = () => {
   return (
     <>
-      <div className="flex flex-col mb-24 w-[1720px] md:w-screen">
+      <div className="flex flex-col mb-24 w-full">
         <div className="relative z-0">
           <div className="absolute right-0 top-40">
             <img src={VectorRight.src} />
@@ -27,7 +27,7 @@ const Proposal: NextPage = () => {
             長期インターンしてみては？
           </p>
         </div>
-        <div className="mx-auto grid grid-cols-3 gap-[30px] z-10">
+        <div className="grid grid-cols-3 gap-[30px] z-10 mx-8 xl:mx-40">
           <div className="w-[360px] h-80 rounded-3xl shadow-2xl bg-white">
             <div className="w-fit mx-auto mt-[71px] mb-[30px]">
               <img src={TakeTheLead.src} />

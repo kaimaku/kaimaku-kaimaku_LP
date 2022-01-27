@@ -6,7 +6,7 @@ import Logo from '../../public/images/footer/footerLogo.png';
 const Footer: NextPage = () => {
   return (
     <>
-      <div className="mt-[200px] bg-[#2F2E40] h-[330px] px-[200px] pt-[57px] w-[1720px] md:w-screen">
+      <div className="mt-[200px] bg-[#2F2E40] h-[330px] px-[200px] pt-[57px] w-full">
         <div className="flex flex-col">
           <div className="w-fit">
             <img src={Menu.src} alt="MENU" />

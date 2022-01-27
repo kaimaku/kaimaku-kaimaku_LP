@@ -42,7 +42,6 @@ const ResFirstLook: NextPage = () => {
             src={Layer3.src}
             alt="responsiveLayer3"
           />
-          {/* 原因は円が外に出てしまうこと */}
           <div className="w-full -top-12 z-10 h-[400px] relative overflow-hidden">
             <div className="absolute border border-white rounded-full w-[220px] h-[220px] top-[4px] -right-[44px] opacity-20 overflow-hidden "></div>
             <div className="absolute border border-white rounded-full w-[160px] h-[160px] top-[34px] -right-[12px] z-10 opacity-30"></div>

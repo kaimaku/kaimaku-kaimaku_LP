@@ -10,12 +10,15 @@ import Footer from '../components/footer';
 import ResProblem from '../components/responsive/resProblem';
 import ResFirstLook from '../components/responsive/resFirstLook';
 import ResProposal from '../components/responsive/resProposal';
+import ResFeature from '../components/responsive/resFeatures/resFeatures';
+import ResVoice from '../components/responsive/resVoice/resVoice';
+import ResFooter from '../components/responsive/resFooter';
 
 const Home: NextPage = () => {
   return (
     <>
       <div className="">
-        <div className="hidden md:block">
+        <div className="hidden lg:block">
           <FirstLook />
           <Problem />
           <Proposal />
@@ -24,10 +27,13 @@ const Home: NextPage = () => {
           <Voice />
           <Footer />
         </div>
-        <div className="block md:hidden">
+        <div className="block lg:hidden">
           <ResFirstLook />
           <ResProblem />
           <ResProposal />
+          <ResFeature />
+          <ResVoice />
+          <ResFooter />
         </div>
       </div>
     </>
