@@ -13,13 +13,13 @@ const ResFooter: NextPage = () => {
           <a href="" className="mt-10 mb-8 text-[14px]">
             利用規約
           </a>
-          <a href="" className="mb-8 text-[14px]">
+          <a href="https://kaimaku.jp/index.html#5" className="mb-8 text-[14px]">
             会社概要
           </a>
           <a href="" className="mb-8 text-[14px]">
             プライバシーポリシー
           </a>
-          <a href="" className="mb-10 text-[14px]">
+          <a href="https://kaimaku.jp/contact.html" className="mb-10 text-[14px]">
             お問い合わせ
           </a>
           <img src={Logo.src} alt="KAIMAKU" width={66} />
@@ -29,7 +29,7 @@ const ResFooter: NextPage = () => {
           <a href="" className="mt-10 mb-8 text-[14px]">
             タレント向け
           </a>
-          <a href="" className="text-[14px]">
+          <a href="https://kaimaku-company.web.app/" className="text-[14px]">
             企業向け
           </a>
         </div>
