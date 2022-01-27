@@ -11,7 +11,7 @@ import LogoText from '../../public/images/logoText.png';
 const FirstLook: NextPage = () => {
   return (
     <>
-      <div className="h-[1000px] w-full relative overflow-x-hidden">
+      <div className="h-[700px] w-full relative overflow-x-hidden">
         <img src={BackgroundBaseImage.src} height={600} className="z-0 w-full" />
         <div className="flex flex-col-reverse w-screen md:flex-row px-28 absolute top-32">
           <div className="flex flex-col mx-12 max-w-3xl -mt-[550px] md:mt-0">
