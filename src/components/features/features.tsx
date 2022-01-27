@@ -9,7 +9,7 @@ import RightIcon from './rightIcon';
 const Features: NextPage = () => {
   return (
     <>
-      <div className="flex flex-col mb-56">
+      <div className="flex flex-col mb-56 w-full">
         <div className="mx-auto w-fit flex flex-col">
           <img src={Title.src} alt="FEATURES" />
         </div>
